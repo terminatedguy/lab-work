@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+class test
+{
+public:
+	void abc();
+};
+void test::abc()
+{
+	cout << "program working";
+}
+int main()
+{
+	test xyz;
+	xyz.abc();
+	return 0;
+}
